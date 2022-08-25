@@ -1,0 +1,227 @@
+/* 
+    Author: Waqar Hussain
+    Website: Yummy Restaurant
+*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ff6b81;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #ff6b81;
+    color: white;
+    font-size: 16px;
+    padding: 1%;
+}
+.btn:hover{
+    background-color: #ff4757;
+    color: white;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 10px;
+}
+
+/* CSS for menubar */
+
+.logo{
+    
+    margin-top: 0.9em;
+    width: 10%;
+    float: left;
+}
+
+
+.menu ul li{
+    float: right;
+    padding: 1%;
+    line-height: 50px;
+    font-weight: bold;
+    
+}
+.menu ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.clear{
+    clear: both;
+    float: none;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 35px;
+    left: 43%;
+    color: white;
+}
+
+/* CSS for Food Search section */
+
+.food-search{
+    background-image: url(./images/bg.jpg);
+    padding: 6em 0%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 0.5em;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.food-search input[type="submit"]{
+    padding: 0.5em 1em;
+    
+    margin-left: 0.5em;
+    
+}
+
+/* CSS for Categories */
+.categories{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+h2{
+    text-align: center;
+    color: #2f3542;
+    font-size: 1.8rem;
+    margin-bottom: 4%;
+}
+.box-3{
+    
+    width: 32%;
+    float: left;
+    margin: 1em 0 1em 0.8em;
+}
+h3{
+    text-align: center;
+    
+    
+}
+.box-3{
+    cursor: pointer;
+}
+
+/* CSS for Food Menu */
+
+.food-menu{
+    background-color: rgb(235, 227, 227);
+    padding: 4% 0;
+}
+.food-menu-box{
+    
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    margin: 2em ;
+    border-radius: 14px;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: right;
+    margin-left: 1em;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #202735;
+}
+
+/* CSS for Social Section */
+
+.social{
+    text-align: center;
+    
+}
+.social ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 1%;
+}
+.social ul li:hover{
+    color: #ff4757;
+}
+
+.ficons{
+    color: blue;
+   
+}
+.ficons:hover{
+    
+}
+.ticons{
+color: #00acee;
+}
+.iicons{
+    color: palevioletred ;
+}
+.ficons, .ticons, .iicons{
+    font-size: 27px;
+
+}
+
+/* CSS for Footer Section */
+
+.footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+
+/* CSS for Mobile friendly */
+
+
+@media only screen and (max-width:768px) {
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    
+    }
+    .menu{
+       
+        text-align: center;
+       
+    }
+    
+}
